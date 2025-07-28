@@ -1,0 +1,13 @@
+# YOLOv8 Dataset Configuration File
+
+# This path is relative to where you run your training script.
+# Since your yolo_dataset folder is in the same directory as your script,
+# this configuration will work correctly.
+path: ./yolo_dataset 
+train: images/train
+val: images/valid
+test: images/test
+
+# Classes
+nc: 26
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
