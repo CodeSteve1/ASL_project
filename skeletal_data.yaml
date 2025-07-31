@@ -1,0 +1,14 @@
+# YOLOv8 Dataset Configuration File for Skeletal Data
+
+# Path to the root of the YOLO dataset folder
+# This path is relative to where you run the training script.
+path: ./yolo_skeletal_dataset 
+train: images/train  # train images (relative to 'path')
+val: images/valid    # validation images (relative to 'path')
+test: images/test    # test images (optional)
+
+# Classes - This will be dynamically read by the training script,
+# but it's good practice to list them here.
+# Make sure this matches the output from the prep script.
+nc: 28 # Number of classes
+names: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'del', 'space']
